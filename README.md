@@ -112,13 +112,14 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to be as follows. This will assign the VM servers to their server groups for the Ansible Playbooks.
 
 
-webservers
-	10.0.0.5
-	10.0.0.6
-	10.0.0.7
-	
-ELKserver
-	10.1.0.4
+```
+   [webservers]
+    10.0.0.5
+    10.0.0.6
+    10.0.0.7
+   [elkservers]
+    10.1.0.4
+```
 	
 - Run the playbooks and install ELK, Filebeat, and Metricbeat run the following:
 
