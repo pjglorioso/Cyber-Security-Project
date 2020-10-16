@@ -96,6 +96,7 @@ These Beats allow us to collect the following information from each machine:
 
 
 The Ansible Playbooks used can be found here
+
 ansible-playbook [elk-playbook.yml](https://github.com/pjglorioso/Cyber-Security-Project/blob/main/ELK%20PB.txt)
 
 ansible-playbook [filebeat-playbook.yml](https://github.com/pjglorioso/Cyber-Security-Project/blob/main/Filebeat%20PB.txt)
