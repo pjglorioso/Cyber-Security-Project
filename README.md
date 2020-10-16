@@ -97,7 +97,9 @@ These Beats allow us to collect the following information from each machine:
 
 The Ansible Playbooks used can be found here
 ansible-playbook [elk-playbook.yml](https://github.com/pjglorioso/Cyber-Security-Project/blob/main/ELK%20PB.txt)
+
 ansible-playbook [filebeat-playbook.yml](https://github.com/pjglorioso/Cyber-Security-Project/blob/main/Filebeat%20PB.txt)
+
 Ansible-playbook [metricbeat-playbook.yml](https://github.com/pjglorioso/Cyber-Security-Project/blob/main/Metricbeat%20PB.txt)
 
 * Using the Playbook
@@ -109,6 +111,7 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to be as follows. This will assign the VM servers to their server groups for the Ansible Playbooks.
 
 
+`
 webservers
 	10.0.0.5
 	10.0.0.6
@@ -116,7 +119,7 @@ webservers
 	
 	ELKserver
 	10.1.0.4	
-
+`
 - Run the playbooks and install ELK, Filebeat, and Metricbeat run the following:
 
 
