@@ -123,12 +123,12 @@ SSH into the control node and follow the steps below:
 	
 - Run the playbooks and install ELK, Filebeat, and Metricbeat run the following:
 
-
+```
 cd /etc/ansible
 ansible-playbook elk-playbook.yml
 ansible-playbook filebeat-playbook.yml
 Ansible-playbook metricbeat-playbook.yml
-
+```
 
 Then navigate to curl http://10.0.0.8:5601 (Kibana) to check that the installation worked as expected. 
 
